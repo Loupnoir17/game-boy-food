@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: bisque;
+    color: rgb(136, 138, 139);
+    font-size: 1.1rem;
+    
+}
+
+
+header {
+    background-color: burlywood;
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.top {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 3rem;
+}
+
+.topimg {
+    width: 200px;
+    height: 600px;
+    border-radius: 1rem;
+
+    transition: all 2s;
+}
+
+.topimg:hover {
+    width: 600px;
+    transform: skewX(5deg);
+}
+
+
+
+main {
+    padding: 6rem 5rem;
+}
+
+ol {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.4rem;
+    color: rgba(18, 18, 17, 0.599);
+}
+
+.zombisamurai {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+li {
+    margin-top: 0.6rem;
+}
+
+.zomsamhov {
+    animation: zomsam 5s linear infinite running ;
+    width: 500px;
+    height: 700px;
+   transition: all 2s;
+   border-radius: 1rem;
+}
+
+.zomsamhov:hover {
+    transform: skewX(7deg);
+}
+
+@keyframes zomsam {
+
+    from {
+        background-image: url(/img/zombie\ samurai\ 1.jpg);
+    }
+
+    to {
+        background-image: url(/img/zombie\ samurai\ 2.jpg);
+    }
+
+
+}
+
+.waterdemon {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+   
+}
+
+.waterhov {
+    animation: test 7s ease-in-out infinite running 2s;
+    width: 500px;
+    height: 700px;
+   transition: all 2s;
+   border-radius: 1rem;
+}
+
+.waterhov:hover {
+    transform: skewX(10deg);
+}
+
+@keyframes test {
+
+    from {
+        background-image: url(/img/water\ demon.jpg);
+    }
+
+    to {
+        background-image: url(/img/1717874563819.jpg);
+    }
+
+
+}
+
+.zombisamurai {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+li {
+    margin-top: 0.6rem;
+}
+
+.zomsamhov {
+    animation: zomsam 5s linear infinite running ;
+    width: 500px;
+    height: 700px;
+   transition: all 2s;
+   border-radius: 1rem;
+}
+
+.zomsamhov:hover {
+    transform: skewX(7deg);
+}
+
+@keyframes zomsam {
+
+    from {
+        background-image: url(/img/zombie\ samurai\ 1.jpg);
+    }
+
+    to {
+        background-image: url(/img/zombie\ samurai\ 2.jpg);
+    }
+
+
+}
+
+.killerfarmer {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+   
+}
+
+.killerfarmerhov {
+    animation: killerfarmer 7s ease-in-out infinite running 2s;
+    width: 500px;
+    height: 700px;
+   transition: all 2s;
+   border-radius: 1rem;
+}
+
+.killerfarmerhov:hover {
+    transform: skewX(10deg);
+}
+
+@keyframes killerfarmer {
+
+    from {
+        background-image: url(/img/Zomdie\ farmer\ killer.jpg);
+        
+    }
+
+    to {
+        background-image: url(/img/demon\ general.jpg);
+    }
+
+
+}
+
+
+
+.birdwoman {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+   
+}
+
+.birdwomanhov {
+    animation: birdwoman 7s ease-in-out infinite running 2s;
+    width: 500px;
+    height: 700px;
+   transition: all 2s;
+   border-radius: 1rem;
+}
+
+.birdwomanhov:hover {
+    transform: skewX(6deg);
+}
+
+@keyframes birdwoman {
+
+    from {
+        background-image: url(/img/woman\ bird\ spirit.jpg);
+        
+    }
+
+    to {
+        background-image: url(/img/amoremed\ demon.jpg);
+    }
+
+
+}
